@@ -26,8 +26,14 @@ MuLog é uma ferramenta desktop que **remove automaticamente instruções de log
 ### Pré-requisitos
 
 - Nenhum, qualquer Desktop podera rodar a aplicação
+  
+## 📦 Download
+
+🔽 [Clique aqui para baixar a versão mais recente](https://github.com/ViniciusEdvaldo/MuLog/releases/tag/1.0)
+
 
 ⚙️ Tecnologias Utilizadas
+
 ☕ Java 8 — Linguagem principal
 
 📦 Javassist — Manipulação de bytecode
