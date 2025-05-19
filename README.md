@@ -72,8 +72,8 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 🙋‍♂️ Autor
 
-**Bruno Henrique Cachali**  
-📧 *Insira aqui seu e-mail ou LinkedIn*
+**Vinicius Edvaldo Pinheiro Trindade**  
+📧 *https://www.linkedin.com/in/vin%C3%ADcius-edvaldo-252383267/*
 
 ---
 
