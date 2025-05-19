@@ -4,50 +4,76 @@
 ![JavaFX](https://img.shields.io/badge/JavaFX-UI-blue)
 ![Javassist](https://img.shields.io/badge/Javassist-Bytecode%20Editing-lightgrey)
 
-MuLog é uma ferramenta desktop que **remove automaticamente instruções de log** (como `System.out.println`) de arquivos `.jar`, gerando uma versão **limpa para produção** e mantendo uma versão **completa para desenvolvimento**. Foi criada para evitar o retrabalho manual de apagar logs e melhorar a segurança, desempenho e organização dos sistemas Java.
+**MuLog** é uma ferramenta desktop leve e eficiente que **remove automaticamente instruções de log** (como `System.out.println`, `System.err.println` e `printStackTrace()`) de arquivos `.jar`. Ela gera uma versão **limpa para produção**, mantendo uma cópia **completa para desenvolvimento**.
+
+Criada para desenvolvedores Java que enfrentam retrabalho com a limpeza de logs, a ferramenta visa melhorar o desempenho, a organização e a segurança dos sistemas.
 
 ---
 
-## ✨ Principais Funcionalidades
+## ✨ Funcionalidades Principais
 
-- 🔍 **Detecção automática** de logs em bytecode Java.
-- 🧼 **Remoção precisa** de `System.out.println`, `System.err.println`, `printStackTrace()` e outros logs.
-- 🗂️ **Geração de duas versões**:
-  - Produção (sem logs)
-  - Desenvolvimento (com logs)
-- 💻 Interface gráfica moderna (JavaFX) com modo claro/escuro.
-- 📁 Suporte a dependências externas (JARs adicionais).
+- 🔍 **Detecção automática** de logs no bytecode de arquivos `.jar`.
+- 🧼 **Remoção precisa** de:
+  - `System.out.println`
+  - `System.err.println`
+  - `printStackTrace()`
+- 🗂️ **Geração de duas versões** do JAR:
+  - ✔️ Produção (sem logs)
+  - 🧪 Desenvolvimento (com logs)
+- 💻 Interface gráfica moderna feita com JavaFX (modo claro e escuro).
+- 📁 Suporte à adição de **dependências externas (JARs)**.
 
 ---
 
-
-## 🚀 Como Executar
+## 🚀 Como Usar
 
 ### Pré-requisitos
 
-- Nenhum, qualquer Desktop podera rodar a aplicação
-  
-## 📦 Download
+🖥️ Nenhum! Basta ter um sistema operacional de desktop (Windows) e **extrair o `.zip`**.
 
-🔽 [Clique aqui para baixar a versão mais recente](https://github.com/ViniciusEdvaldo/MuLog/releases/tag/1.0)
+### Passos:
 
+1. 🔽 [Clique aqui para baixar a versão mais recente](https://github.com/ViniciusEdvaldo/MuLog/releases/tag/1.0)
+2. Extraia o conteúdo do `.zip` baixado.
+3. Dê um duplo clique no arquivo `ExcluirLogV2.exe`.
+4. Selecione o JAR desejado e escolha os tipos de logs que deseja remover.
+5. Pronto! Você terá duas versões: uma com e outra sem logs.
 
-⚙️ Tecnologias Utilizadas
+---
 
-☕ Java 8 — Linguagem principal
+## ⚙️ Tecnologias Utilizadas
 
-📦 Javassist — Manipulação de bytecode
+| Tecnologia    | Descrição                              |
+|---------------|----------------------------------------|
+| ☕ Java 8+     | Linguagem principal                    |
+| 📦 Javassist  | Manipulação de bytecode (remoção de logs) |
+| 🎨 JavaFX     | Interface gráfica rica e responsiva     |
+| 📋 Google Forms | Pesquisa com desenvolvedores para validação |
 
-🎨 JavaFX — Interface gráfica
+---
 
-📋 Google Forms — Coleta e validação com desenvolvedores reais
+## ✅ Benefícios
 
-✅ Benefícios
-⏱️ Economia de tempo na entrega
+- ⏱️ Economia de tempo com limpeza automatizada
+- 📉 Redução do tamanho dos arquivos `.jar` em produção
+- 🔒 Eliminação de possíveis vazamentos de informação por logs esquecidos
+- 🧹 Código de produção mais limpo e organizado
+- 🧾 Facilidade para auditoria e controle de qualidade
+- 💡 Ideal para projetos legados com muitos logs
 
-📉 Redução de tamanho dos JARs
+---
 
-🔒 Maior segurança no ambiente produtivo
+## 📄 Licença
 
-📊 Facilidade para auditoria e controle de qualidade
+Este projeto está licenciado sob a **MIT License**.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 🙋‍♂️ Autor
+
+**Bruno Henrique Cachali**  
+📧 *Insira aqui seu e-mail ou LinkedIn*
+
+---
 
