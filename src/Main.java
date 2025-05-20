@@ -57,7 +57,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-        stage.setTitle("Doal - Removedor de Logs");
+        stage.setTitle("MuLog - Removedor de Logs");
         carregarConfiguracoes();
 
         Label titleLabel = new Label("MuLog - Removedor de Logs");
